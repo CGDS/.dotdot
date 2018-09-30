@@ -96,3 +96,15 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
+
+#######
+
+# Let rbenv know where it lives
+export RBENV_SHELL=zsh
+
+# Add rbenv auto completions for zsh
+source '/home/savageco/.rbenv/libexec/../completions/rbenv.zsh
+
+# Rehash rbenv shims
+command rbenv rehash 2>/dev/null
