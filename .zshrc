@@ -104,7 +104,7 @@ source $ZSH/oh-my-zsh.sh
 export RBENV_SHELL=zsh
 
 # Add rbenv auto completions for zsh
-source '/home/savageco/.rbenv/libexec/../completions/rbenv.zsh
+source '/home/savageco/.rbenv/libexec/../completions/rbenv.zsh'
 
 # Rehash rbenv shims
 command rbenv rehash 2>/dev/null
