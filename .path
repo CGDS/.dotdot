@@ -1,0 +1,6 @@
+# Add rbenv to path
+export PATH="$HOME/.rbenv/bin:$PATH"
+
+# Add rbenv shims to path
+# NB Most people should not do this.  I am _also_ most people.
+export PATH="$HOME/.rbenv/shims:${PATH}"
