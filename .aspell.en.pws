@@ -1,4 +1,4 @@
-personal_ws-1.1 en 12 
+personal_ws-1.1 en 14 
 postgresql
 spacemacs
 postgres
@@ -8,6 +8,8 @@ zprofile
 mysql
 rbenv
 symlink
+rspec
+rubocop
 gitconfig
 imagemagick
 psqlrc
