@@ -4,3 +4,10 @@
 
 	# abbreviated log
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
+
+[user]
+	signingkey = 012C8BC61DF32BBC
+
+[commit]
+	gpgsign = true
+
