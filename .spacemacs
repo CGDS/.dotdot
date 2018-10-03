@@ -42,6 +42,7 @@ values."
      better-defaults
      emacs-lisp
      git
+     github
      markdown
      org
      (shell :variables
