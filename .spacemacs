@@ -56,7 +56,8 @@ values."
      yaml
      html
      (ruby :variables
-           ruby-version-manager 'rbenv)
+           ruby-version-manager 'rbenv
+           ruby-test-runner 'rspec)
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
