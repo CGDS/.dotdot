@@ -55,7 +55,8 @@ values."
      ansible
      yaml
      html
-     ruby
+     (ruby :variables
+           ruby-version-manager 'rbenv)
      )
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
