@@ -108,3 +108,7 @@ source '/home/savageco/.rbenv/libexec/../completions/rbenv.zsh'
 
 # Rehash rbenv shims
 command rbenv rehash 2>/dev/null
+
+# No more "gpg: signing failed: Inappropriate ioctl for device" error for me
+GPG_TTY=$(tty)
+export GPG_TTY
