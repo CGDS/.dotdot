@@ -1,11 +1,13 @@
-personal_ws-1.1 en 16 
+personal_ws-1.1 en 20 
 postgresql
 spacemacs
 postgres
+scala
 aspell
 ctlcluster
 zprofile
 config
+sbt
 mysql
 rbenv
 symlink
@@ -13,5 +15,7 @@ localhost
 rspec
 rubocop
 gitconfig
+golang
+dev
 imagemagick
 psqlrc
