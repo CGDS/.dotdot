@@ -1,5 +1,7 @@
-personal_ws-1.1 en 20 
+personal_ws-1.1 en 22 
+clojure
 postgresql
+leiningen
 spacemacs
 postgres
 scala
