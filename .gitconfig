@@ -7,6 +7,8 @@
 
 [user]
 	signingkey = 012C8BC61DF32BBC
+	name = "Connor Savage"
+	email = "csavage@mdsol.com"
 
 [commit]
 	gpgsign = true
