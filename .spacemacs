@@ -67,6 +67,7 @@ values."
      (clojure :variables
               clojure-enable-fancify-symbols t)
      sql
+     yaml
      spotify
      )
    ;; List of additional packages that will be installed without being
