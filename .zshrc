@@ -109,6 +109,9 @@ source '/home/savageco/.rbenv/libexec/../completions/rbenv.zsh'
 # Rehash rbenv shims
 command rbenv rehash 2>/dev/null
 
+# init rbenv
+eval "$(rbenv init -)"
+
 # No more "gpg: signing failed: Inappropriate ioctl for device" error for me
 GPG_TTY=$(tty)
 export GPG_TTY
@@ -116,3 +119,6 @@ export GPG_TTY
 
 # Pull in local config for specific overrides
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+# Add ~/bin to path
+export PATH=~/bin:$PATH
